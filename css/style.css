@@ -1,0 +1,90 @@
+body{
+    background: #fafafa;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.wrapper{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.tab_panels ul{
+    margin: 0;
+    padding: 0;
+}
+
+.tab_panels ul li{
+    list-style-type: none;
+    display: inline-block;
+    background: #99B;
+    margin: 0;
+    padding: 3px 10px;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.tab_panels ul li:hover{
+    color: #fff;
+    background: #666;
+}
+
+.tab_panels ul li.active{
+    color: #fff;
+    background: #666;
+}
+
+.tab_panels .panel{
+    display: none;
+    background: #c9c9c9;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.tab_panels .panel.active{
+    display:block;
+}
+
+.tab_panels .panel>p{
+    margin: 0;
+}
+
+/*Homework. Second part*/
+.form {
+    box-sizing: border-box;
+    width: 700px;
+    margin: auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+label {
+    display: table-row;
+}
+
+span {
+    display: table-cell;
+}
+
+input {
+    display: table-cell;
+    margin: 10px;
+    padding: 3px 0;
+    border-radius: 5px;
+}
+
+.tooltip {
+    display: none;
+    padding: 5px;
+    font-size: 0;
+    
+}
+
+.button {
+    margin-top: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
