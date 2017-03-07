@@ -9,6 +9,9 @@ body{
     margin: 0 auto;
 }
 
+.tab_panels{
+    height: 230px;
+}
 .tab_panels ul{
     margin: 0;
     padding: 0;
@@ -79,7 +82,7 @@ input {
 .tooltip {
     display: none;
     padding: 5px;
-    font-size: 0;
+    font-size: 14px;
     
 }
 

@@ -20,21 +20,27 @@ $(function() {
     });
 //Homework. Second part
 
-    $('input').hover(function () {
-        $(this)
-            .siblings('.tooltip')
-            .fadeToggle()
-            .animate({
-                fontSize: '14px'
-            });
-    });
-
-    $('.button').click(function () {
-        $('.tooltip')
-            .fadeToggle()
-            .animate({
-                fontSize: '14px'
-            });
-    });
+$('input').hover(function () {
+    $(this)
+    .siblings('.tooltip')
+    .fadeToggle()
 
 });
+
+$('input').focus(function () {
+    $(this)
+    .siblings('.tooltip')
+    .fadeToggle()
+
+}); 
+
+$('.button').click(function () {
+    $('.tooltip')
+    .fadeToggle()
+
+});
+
+
+
+});
+
